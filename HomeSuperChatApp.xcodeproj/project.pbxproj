@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		D3D3345627C772EC00F04B41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3345527C772EC00F04B41 /* AppDelegate.swift */; };
-		D3D3345827C772EC00F04B41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3345727C772EC00F04B41 /* SceneDelegate.swift */; };
 		D3D3345A27C772EC00F04B41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3345927C772EC00F04B41 /* ViewController.swift */; };
 		D3D3345D27C772EC00F04B41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D3345B27C772EC00F04B41 /* Main.storyboard */; };
 		D3D3345F27C772ED00F04B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D3345E27C772ED00F04B41 /* Assets.xcassets */; };
 		D3D3346227C772ED00F04B41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D3346027C772ED00F04B41 /* LaunchScreen.storyboard */; };
+		D3D3346A27C7833300F04B41 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D3D3346927C7833300F04B41 /* .gitignore */; };
+		D3D3346C27C7ADF000F04B41 /* Properties.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3D3346B27C7ADF000F04B41 /* Properties.plist */; };
+		D3D3346E27C7B7D800F04B41 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3346D27C7B7D800F04B41 /* LogManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D3D3345227C772EC00F04B41 /* HomeSuperChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeSuperChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D3345527C772EC00F04B41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3D3345727C772EC00F04B41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D3D3345927C772EC00F04B41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3D3345C27C772EC00F04B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3D3345E27C772ED00F04B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3D3346127C772ED00F04B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3D3346327C772ED00F04B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D3346927C7833300F04B41 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		D3D3346B27C7ADF000F04B41 /* Properties.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Properties.plist; sourceTree = "<group>"; };
+		D3D3346D27C7B7D800F04B41 /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		D3D3344927C772EC00F04B41 = {
 			isa = PBXGroup;
 			children = (
+				D3D3346927C7833300F04B41 /* .gitignore */,
 				D3D3345427C772EC00F04B41 /* HomeSuperChatApp */,
 				D3D3345327C772EC00F04B41 /* Products */,
 			);
@@ -57,12 +62,13 @@
 			isa = PBXGroup;
 			children = (
 				D3D3345527C772EC00F04B41 /* AppDelegate.swift */,
-				D3D3345727C772EC00F04B41 /* SceneDelegate.swift */,
 				D3D3345927C772EC00F04B41 /* ViewController.swift */,
+				D3D3346D27C7B7D800F04B41 /* LogManager.swift */,
 				D3D3345B27C772EC00F04B41 /* Main.storyboard */,
-				D3D3345E27C772ED00F04B41 /* Assets.xcassets */,
 				D3D3346027C772ED00F04B41 /* LaunchScreen.storyboard */,
+				D3D3345E27C772ED00F04B41 /* Assets.xcassets */,
 				D3D3346327C772ED00F04B41 /* Info.plist */,
+				D3D3346B27C7ADF000F04B41 /* Properties.plist */,
 			);
 			path = HomeSuperChatApp;
 			sourceTree = "<group>";
@@ -125,8 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D3346A27C7833300F04B41 /* .gitignore in Resources */,
 				D3D3346227C772ED00F04B41 /* LaunchScreen.storyboard in Resources */,
 				D3D3345F27C772ED00F04B41 /* Assets.xcassets in Resources */,
+				D3D3346C27C7ADF000F04B41 /* Properties.plist in Resources */,
 				D3D3345D27C772EC00F04B41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D3346E27C7B7D800F04B41 /* LogManager.swift in Sources */,
 				D3D3345A27C772EC00F04B41 /* ViewController.swift in Sources */,
 				D3D3345627C772EC00F04B41 /* AppDelegate.swift in Sources */,
-				D3D3345827C772EC00F04B41 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
